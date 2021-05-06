@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16pt;
+}
+
+body {
+  background: #f3c2cb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#mainBody {
+  max-width: 75%;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background-color: #ffffff;
+  color:#767676;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1.05rem;
+}
+
+p {
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.new-search-form {
+  max-width: 400px;
+}
+.not-found{
+  color: #000000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.new-search-form .full-width-input {
+  display: block;
+  min-height: 3em;
+  margin: 10px 0;
+  width: 100%;
+}
+a{
+  color: #000000;
+}
+
+dt, li{
+  color: #000000;
+}
+
+dd{
+  color: #000000;
+}
+
+label {
+  color: #000000;
+}
+
+p.error {
+  color: #000000;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
+
+span#unError{
+  font-size: small;
+  color: red;
+  background-color: white;
+}
+
+#mainHeader{
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  font-weight: 200;
+  font-size: 40px;
+}
+
+#signText{
+  margin: 20px;
+}
+
+.output {
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+p,
+dt {
+  font-weight: bold;
+}
+
+dl,
+dd {
+  font-size: .9rem;
+}
+
+dd {
+  margin-bottom: 1em;
+}
+
+div#quizFinish{
+  padding-top: 2em;
+}

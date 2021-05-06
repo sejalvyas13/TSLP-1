@@ -1,0 +1,60 @@
+<!--
+    Template below
+ -->
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-xl-9 mx-auto">
+        <div class="card card-signin flex-row my-5">
+          <div class="card-img-left d-none d-md-flex">
+             <!-- Background image for card set in CSS! -->
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Register</h5>
+            <form class="form-signin new-search-form" action="/signup" method="POST" id="signup-form">
+
+              <div class="form-label-group">
+                <input type="text" name="firstname" id="firstname" class="form-control" placeholder="First Name" required autofocus>
+                <label for="firstname">First Name</label>
+              </div>
+
+              <div class="form-label-group">
+                <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Last Name" required>
+                <label for="lastname">Last Name</label>
+              </div>  
+
+            <hr>
+
+              <div class="form-label-group">
+                <input type="text" name="username" id="username" class="form-control" placeholder="Username" required>
+                <label for="username">Username</label>
+                <span id="unError" hidden></span>
+              </div>
+
+          
+
+              <div class="form-label-group">
+                <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
+                <label for="password">Password</label>
+              </div>
+              
+             
+                
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" id="signupBtn">
+                  Register</button>
+              <a class="d-block text-center mt-2 small" href="/login">Log In</a>
+              <hr class="my-4">
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="/public/css/bootstrap.bundle.min.js"></script>
+<script src="/public/css/jquery.slim.min.js"></script>
+<link rel="stylesheet" href="/public/css/bootstrap.min.css">
+<link rel="stylesheet" href="/public/css/all.css">
+<link rel="stylesheet" href="/public/css/signup.css">

@@ -1,0 +1,21 @@
+<div>
+  <span>
+    First Name:
+  {{userData.userInfo.firstname}}
+  </span>
+  
+  <br/>
+  <span>Last Name: {{userData.userInfo.lastname}}</span> 
+  <br/>
+  <span>User Type: {{userData.userInfo.userType}}</span> 
+  <br/>
+  <span>Number of pending Contributions: {{userData.contributionsInfo}}</span>
+  <br/>
+  <span>Contribution Badge : {{badges.contribution_badge}}</span>
+  <br/>
+  <span>Test Badge : {{badges.test_badge}}</span>
+  <br/>
+  {{#if isAdmin}} 
+      <a href="/contributions/pendingContributions">Check pending contributions</a>
+  {{/if}}    
+</div>
